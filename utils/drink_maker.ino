@@ -52,7 +52,7 @@ Servo myservo;  // create servo object to control a servo
 /*
     USEFULL VARS
 */
-HL1606strip strip = HL1606strip(STRIP_D, STRIP_L, STRIP_C, 34);
+HL1606strip strip = HL1606strip(STRIP_D, STRIP_L, STRIP_C, 40);
 Adafruit_NeoPixel neostrip = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
 const int color1= GREEN;
