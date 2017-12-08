@@ -1,1 +1,1 @@
-git remote set-url origin https://github.com/open-electronics/drink-maker.git
+git remote set-url origin https://github.com/ryssadunder/drink-maker.git
