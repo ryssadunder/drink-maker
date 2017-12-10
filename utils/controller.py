@@ -126,7 +126,7 @@ base_url="http://127.0.0.1/"
 connected = False
 while not connected:
         try:
-                ser=serial.Serial(port="/dev/ttyS0",baudrate=9600)
+                ser=serial.Serial(port="/dev/tty1",baudrate=9600)
                 connected= True
         except:
                 connected= False
